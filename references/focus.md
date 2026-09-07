@@ -382,6 +382,23 @@ choose another logical destination.
 
 Do not restore focus blindly to an element removed from the DOM.
 
+Do not base focus restoration on whether the close action came from keyboard,
+pointer, or another input method. Users can switch input methods during a task,
+and focus still represents the active point of interaction.
+
+Avoid leaving focus in an undefined state after closing a dialog. If focus would
+fall back to `body` or another unhelpful target, move it to a logical element in
+the resulting workflow.
+
+If the goal is to avoid showing a keyboard-style focus indicator after pointer
+interaction, address that through focus styling such as `:focus-visible` rather
+than skipping focus restoration.
+
+For design-system dialogs, the component may handle the standard restoration to
+the invoking element. It should still allow the application to provide or choose
+an alternative destination when the invoker no longer exists or the completed
+workflow makes another target more logical.
+
 ---
 
 # Focus after deleting content
