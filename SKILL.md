@@ -438,7 +438,7 @@ See: `references/forms.md`
 
 ## Step 8 — Review dynamic content
 
-When content changes withouta full page reload, determine whether users of assistive technology need to beinformed.
+When content changes without a full page reload, determine whether users of assistive technology need to be informed.
 
 Inspect:
 
@@ -562,9 +562,9 @@ For each confirmed finding use:
 
 ### [Finding title]
 
-Severity: Critical | High | Medium |
+Severity: Critical | High | Medium | Low
 
-LowConfidence: High | Medium | Low
+Confidence: High | Medium | Low
 
 Status: Confirmed
 

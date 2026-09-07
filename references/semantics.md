@@ -340,17 +340,12 @@ Use heading elements to represent document and section structure.
 Available levels are:
 
 ```html
-<h1>
-  <h2>
-    <h3>
-      <h4>
-        <h5>
-          <h6></h6>
-        </h5>
-      </h4>
-    </h3>
-  </h2>
-</h1>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
 ```
 
 Choose heading levels according to structural hierarchy, not visual size.
